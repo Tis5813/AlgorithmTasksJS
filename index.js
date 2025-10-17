@@ -703,3 +703,6 @@ console.log (++"50ajhvjgc8")
 function fakeBin(x){
 return x.split("").map(x => (x<5) ? 0 : 1).join("")
 }
+function arrayPlusArray(arr1, arr2) {
+  return  arr1.concat(arr2).reduce((acc,el)=>acc+el,0)
+}
