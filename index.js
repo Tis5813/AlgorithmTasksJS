@@ -699,3 +699,7 @@ console.log (parseInt("50ajhvjgc8"))
 
 
 console.log (++"50ajhvjgc8")
+
+function fakeBin(x){
+return x.split("").map(x => (x<5) ? 0 : 1).join("")
+}
